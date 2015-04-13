@@ -24,6 +24,13 @@ public class RandomGenerator2 {
          //TODO: Ask the user a lower and upper bound.
          System.out.print("Enter a lower bound: ");
          int lowerBound = scanner.nextInt();
+         
+         System.out.print("Enter an upper bound: ");
+         int upperBound = scanner.nextInt();
+
+         //TODO: Ask the user for the number of random integers to generate.
+         System.out.print("Enter the # of random integers to generate: ");
+         int numberOfInt = scanner.nextInt();
     }
     
 }
